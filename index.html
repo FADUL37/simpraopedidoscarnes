@@ -4,42 +4,112 @@
     <meta charset="UTF-8">
     <title>Tabela de Carnes</title>
     <style>
+        body {
+            background-color: #f2f2f2;
+        }
+
         table {
             border-collapse: collapse;
+            width: 100%;
+            max-width: 500px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         th, td {
-            border: 1px solid black;
-            padding: 8px;
+            border: 1px solid #ddd;
+            padding: 12px;
             text-align: center;
+        }
+
+        th {
+            background-color: #f9f9f9;
+            color: #333;
+            font-weight: bold;
+        }
+
+        td {
+            color: #666;
+        }
+
+        .whatsapp-icon {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+        }
+
+        .header {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #333;
         }
     </style>
 </head>
 <body>
+    <div class="header">
+        <h1>Tabela de Carnes</h1>
+        <a href="https://api.whatsapp.com/send?phone=5541998957860" target="_blank"><img src="C:\Users\F4DULZ3X\Desktop\simprao\2whars.png" alt="WhatsApp" class="whatsapp-icon"></a>
+    </div>
+    
     <table>
         <thead>
             <tr>
-                <th>Produto</th>
+                <th>Produtos Carnes</th>
                 <th>Kg</th>
                 <th>Valor</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td><img src="caminho_para_figurinha_carne.png" alt="Carne" width="50"></td>
+                <td><img src="C:\Users\F4DULZ3X\Desktop\simprao\costelinha suina com pele.jpg" alt="Costela Suina c/Pele" width="50">Costela Suina c/Pele</td>
                 <td>2</td>
-                <td>17,99</td>
+                <td>35,98</td>
             </tr>
             <tr>
-                <td><img src="caminho_para_figurinha_frango.png" alt="Frango" width="50"></td>
-                <td>01</td>
-                <td>Variável</td>
+                <td><img src="C:\Users\F4DULZ3X\Desktop\simprao\ponta da costela 02.jpg" alt="Ponta da Costela" width="50">Ponta da Costela</td>
+                <td>2</td>
+                <td>39,98</td>
             </tr>
-            <!-- Adicione as outras linhas da tabela aqui -->
+            <tr>
+                <td><img src="C:\Users\F4DULZ3X\Desktop\simprao\coxao mole.jpg" alt="CoxÃ£o Mole" width="50">Coxao Mole</td>
+                <td>3</td>
+                <td>89,97</td>
+            </tr>
+            <tr>
+                <td><img src="C:\Users\F4DULZ3X\Desktop\simprao\paleta suina.jpg" alt="Paleta Suina" width="50">Paleta Suina</td>
+                <td>2</td>
+                <td>19,98</td>
+            </tr>
+            <tr>
+                <td><img src="C:\Users\F4DULZ3X\Desktop\simprao\contra file com osso.jpg" alt="Contra File C/Osso" width="50">Contra File C/Osso</td>
+                <td>2</td>
+                <td>74,97</td>
+            </tr>
+            <tr>
+                <td><img src="C:\Users\F4DULZ3X\Desktop\simprao\figado.jpg" alt="Figado" width="50">Figado</td>
+                <td>2</td>
+                <td>25,98</td>
+            </tr>
+            <tr>
+                <td><img src="C:\Users\F4DULZ3X\Desktop\simprao\pernil suino.jpg" alt="Pernil Suino" width="50">Pernil Suino</td>
+                <td>2</td>
+                <td>20,98</td>
+            </tr>
+            <tr>
+                <td><img src="C:\Users\F4DULZ3X\Desktop\simprao\frango inteiro.jpg" alt="Frango Inteiro" width="50">Frango Inteiro</td>
+                <td>01</td>
+                <td>Variavel</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
                 <td colspan="2"><strong>Total</strong></td>
-                <td>ValorTotalCarnes</td>
+                <td>304,84</td>
             </tr>
         </tfoot>
     </table>
